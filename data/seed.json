@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {"id": "online_casino", "name": "Online Casino"},
+    {"id": "online_sportsbook", "name": "Online Sportsbook"},
+    {"id": "sweepstakes", "name": "Sweepstakes/Social Casino"},
+    {"id": "dfs", "name": "Daily Fantasy Sports"}
+  ],
+  "publishers": [
+    {
+      "id": "pub_0001",
+      "name": "Caesars Palace Online Casino",
+      "category_ids": ["online_casino"],
+      "country": "US",
+      "status": "active"
+    },
+    {
+      "id": "pub_0002",
+      "name": "FanDuel Sportsbook",
+      "category_ids": ["online_sportsbook"],
+      "country": "US",
+      "status": "active"
+    },
+    {
+      "id": "pub_0003",
+      "name": "DraftKings",
+      "category_ids": ["dfs"],
+      "country": "US",
+      "status": "active"
+    }
+  ],
+  "creatives": [
+    {
+      "id": "creative_100",
+      "publisher_id": "pub_0001",
+      "title": "Deposit Bonus",
+      "body": "Get a 100% deposit bonus today!",
+      "call_to_action": "Sign Up",
+      "snapshot_url": "https://example.com/creative_100.png",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=creative_100",
+      "platforms": ["facebook", "instagram"]
+    },
+    {
+      "id": "creative_101",
+      "publisher_id": "pub_0002",
+      "title": "Bet $5 Get $200",
+      "body": "Limited time offer for new users",
+      "call_to_action": "Bet Now",
+      "snapshot_url": "https://example.com/creative_101.png",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=creative_101",
+      "platforms": ["facebook"]
+    }
+  ]
+}
